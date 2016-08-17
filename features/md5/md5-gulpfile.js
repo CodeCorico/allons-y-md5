@@ -1,6 +1,6 @@
 'use strict';
 
-module.exports = ['$gulp', function($gulp) {
+module.exports = function($gulp) {
 
   var sourcemaps = require('gulp-sourcemaps'),
       uglify = require('gulp-uglify'),
@@ -21,4 +21,4 @@ module.exports = ['$gulp', function($gulp) {
   });
 
   return 'md5';
-}];
+};
