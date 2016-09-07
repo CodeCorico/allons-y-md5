@@ -9,14 +9,14 @@ module.exports = function($gulp) {
   $gulp.task('md5', function(done) {
     $gulp
       .src('node_modules/blueimp-md5/js/md5.js')
-      .pipe($gulp.dest('./public/vendor'))
+      .pipe($gulp.dist('vendor'))
       .pipe(sourcemaps.init())
       .pipe(uglify())
       .pipe(rename({
         extname: '.min.js'
       }))
       .pipe(sourcemaps.write('./'))
-      .pipe($gulp.dest('./public/vendor'))
+      .pipe($gulp.dist('vendor'))
       .on('end', done);
   });
 
