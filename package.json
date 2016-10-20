@@ -1,23 +1,21 @@
 {
   "name": "allons-y-md5",
-  "version": "0.1.0",
-  "description": "",
-  "main": "index.js",
+  "version": "1.0.0",
+  "description": "Publish blueimp-md5 to the allons-y-gulp distribution system.",
+  "license": "MIT",
+  "homepage": "http://allons-y.io",
+  "author": "CodeCorico <hello@codecorico.com>",
+  "bugs": "https://github.com/CodeCorico/allons-y-md5/issues",
   "repository": {
     "type": "git",
     "url": "https://github.com/CodeCorico/allons-y-md5.git"
   },
-  "author": "CodeCorico <hello@codecorico.com>",
-  "bugs": {
-    "url": "https://github.com/CodeCorico/allons-y-md5/issues"
-  },
-  "homepage": "https://github.com/CodeCorico/allons-y-md5",
   "engines": {
     "node": ">=4.1",
     "npm": ">=3.2"
   },
-  "license": "MIT",
   "dependencies": {
+    "allons-y-gulp": "^1.0.0",
     "blueimp-md5": "^2.3.0",
     "gulp-rename": "^1.2.2",
     "gulp-sourcemaps": "^1.6.0",
