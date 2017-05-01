@@ -1,5 +1,5 @@
 {
   "files": [
-    "./node_modules/blueimp-md5/js/md5.js"
+    "./node_modules/blueimp-md5/js/md5.min.js"
   ]
 }
